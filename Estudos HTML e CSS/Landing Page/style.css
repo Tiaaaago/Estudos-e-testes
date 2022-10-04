@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2323 16.62%, #8e5281b0 85.61%);
+}
+
+.conteudo-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo{
+    height: 46px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+    
+.menu-item{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #2f2323;
+}
+
+.principal{
+    margin-bottom: 48px;
+    border-top: #2f2323 0.4px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-sessao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.conteudo-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fbe3e3;
+}
+
+.conteudo-subtitulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fbe3e3;
+}
+
+.login-botao{
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    color: #fbe3e3;
+    background-color: #1b1414;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cadastrar-botao{
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    color: #fbe3e3;
+    background-color: #1b1414;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-botao:hover{
+    background-color:#2f2323;
+}
+
+.cadastrar-botao:hover{
+    background-color: #2f2323;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3{
+    font-family: 'Righteous', cursive;
+    font-weight: 40;
+    font-size: 30px;
+    color: #1c1919;
+}
+
+.p{
+    font-family: 'Righteous', cursive;
+    font-weight: 40;
+    font-size: 20px;
+    color: #1c1919;
+}
+
+:hover{
+    border: #fbe3e3;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 29px;
+    border-top: 0.4px solid #1c1919;
+    margin: 72px;
+}
+
+.footer-p{
+    font-family: 'Righteous', cursive;
+    font-weight: 40;
+    font-size: 20px;
+    color: #1c1919;
+}

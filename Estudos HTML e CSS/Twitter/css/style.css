@@ -1,0 +1,23 @@
+<style>
+      html {
+        background-color: black;
+      }
+      p {
+        color: aliceblue;
+      }
+      .user {
+        font-weight: bold;
+        color: aliceblue;
+      }
+      img {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      em {
+        color: brown;
+        font-style: normal;
+      }
+    </style>
